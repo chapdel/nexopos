@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_Labsdel_Gescom=self.webpackChunk_Labsdel_Gescom||[]).push([[531],{2531:(e,n,t)=>{t.r(n),t.d(n,{default:()=>l});const s={template:"#ns-procurement-invoice",methods:{printInvoice:function(){this.$htmlToPaper("printable-container")}}};const l=(0,t(1900).Z)(s,undefined,undefined,!1,null,null,null).exports}}]);
