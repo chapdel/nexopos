@@ -215,6 +215,23 @@ class Setup
         $this->options->set( 'ns_registration_enabled', false );
         $this->options->set( 'ns_pos_order_types', [ 'takeaway', 'delivery' ]);
 
+		
+		$l =   License::create([
+                    "cloud"=> $data->cloud,
+                    "notification"=> $data->notification,
+                    "status"=> $data->status,
+                    "users"=> $data->users,
+                    "period"=> $data->period,
+                    "name"=> $data->name,
+                    "license"=> $data->license,
+                    "company"=>$fields['company'],
+                    "expires_at" => now()->addYears(1)
+                ]);
+
+                  return response()->json([
+                    'status'    =>  'success',
+                    'message'   =>  __( 'Labsdel has successfully installed' )
+                ], 200);
         /**
          * Register lisence
          */

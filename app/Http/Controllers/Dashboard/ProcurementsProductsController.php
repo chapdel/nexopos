@@ -1,7 +1,7 @@
 <?php
 
 /**
- * NexoPOS Controller
+ * Labsdel Controller
  * @since  1.0
 **/
 

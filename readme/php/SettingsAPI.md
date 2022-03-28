@@ -42,7 +42,7 @@ class MySettings extends SettingsPage
 ```
 
 The class has a protected property named `form` which is requried as this hold the form definition. The settings page consist of tabs that has fields. 
-A settings page can have 1 or multple settings page (up to 8). Each fields but be prefixed with a unique expression. Every NexoPOS fields are prefixed with `ns_`.
+A settings page can have 1 or multple settings page (up to 8). Each fields but be prefixed with a unique expression. Every Labsdel fields are prefixed with `ns_`.
 
 Regarding the field validation, you can use [Laravel Validation rules](https://laravel.com/docs/7.x/validation), and during the submission, the data will be validated.
 
@@ -86,7 +86,7 @@ Every settings page must be registered to be properly initialized. By default, a
     }
 ```
 It's important to remind you that each Settings pages must have a unique identifier. As fields, this help the system to locate the right Settings to load. 
-NexoPOS settings page identifier starts with 'ns.'. 
+Labsdel settings page identifier starts with 'ns.'. 
 
 If you look closer at the above code, you'll see a Hook (filter), on the identifier 'ns.settings'. This should be useful to help you extending the declared settings right from your custom module without touching the source code.
 

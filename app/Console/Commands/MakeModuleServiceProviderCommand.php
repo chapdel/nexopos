@@ -74,7 +74,7 @@ class MakeModuleServiceProviderCommand extends Command
                 }
             }
         } else {
-            $this->info( 'NexoPOS is not yet installed.' );
+            $this->info( 'Labsdel is not yet installed.' );
         }
     }
 }

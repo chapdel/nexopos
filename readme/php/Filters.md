@@ -1,5 +1,5 @@
 # Introduction
-Filters is part of the Hook api of NexoPOS that helps to extends the application. 
+Filters is part of the Hook api of Labsdel that helps to extends the application. 
 Filters are values that can be mutated by subscribers, while actions are even that can be listened by subscribers. Here is how to hook into a filter : 
 ```php
 use Hook

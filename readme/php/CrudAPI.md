@@ -1,7 +1,7 @@
 # Introduction
 The CRUD feature helps to manage components easilly by providing UI to create, read, update and delete components entities. 
 This is usually created to help managing orders list, customers or anything that will requires to be created, read, updated and deleted.
-The current documentation explains how the CRUD feature works on NexoPOS 4.x.
+The current documentation explains how the CRUD feature works on Labsdel 1.x.
 
 ## Working Principle
 The CRUD use backend and frontend functionnalities to works. We rely on Vue.js to create the frontend table and forms and on the backend to ensure
@@ -11,7 +11,7 @@ configuration, data validation & data saving. The feature has a built-in command
 
 This will start a Crud configuration assistant.
 
-Once a CRUD component has been generated, it needs to be registered to be working. That is made on the [```App\Providers\CrudServiceProvider```](https://github.com/Blair2004/NexoPOS-v4/blob/master/app/Providers/CrudServiceProvider.php) on the `boot` method.
+Once a CRUD component has been generated, it needs to be registered to be working. That is made on the [```App\Providers\CrudServiceProvider```](https://github.com/Blair2004/Labsdel-v4/blob/master/app/Providers/CrudServiceProvider.php) on the `boot` method.
 A Crud component must have a unique identifier (namespace). All default components are prefixed with "ns.". 
 For example, the Crud Component responsible of managing the customers group is `ns.customers-groups`. A deeper guide on registering/extending existing Crud components will be provided later.
 
@@ -73,7 +73,7 @@ You can use Vue.js components for the table and the forms. You should note that,
 ### Creating Tables with <ns-crud/>
 
 The CRUD table is a UI feature that helps to display data in a table that can be sorted, filtered and used (edit, delete, bulk-actions, export, import).
-Behind the scene, NexoPOS will loads the configuration as it's defined on the CRUD component class. You can also jump into that to make some changes. 
+Behind the scene, Labsdel will loads the configuration as it's defined on the CRUD component class. You can also jump into that to make some changes. 
 For example, that class can be used : 
 - to hide, show columns (see the method `getColumns`).
 - to define bulk actions

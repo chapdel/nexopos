@@ -45,7 +45,7 @@ class SettingsListener
 
             $this->notificationService->create([
                 'title'         =>  __( 'Workers Aren\'t Running' ),
-                'description'   =>  __( 'The workers has been enabled, but it looks like NexoPOS can\'t run workers. This usually happen if supervisor is not configured correctly.' ),
+                'description'   =>  __( 'The workers has been enabled, but it looks like Labsdel can\'t run workers. This usually happen if supervisor is not configured correctly.' ),
                 'url'           =>  'https://laravel.com/docs/8.x/queues#supervisor-configuration',
                 'identifier'    =>  $notification_id,
             ])->dispatchForGroup( Role::namespace( 'admin' ) );

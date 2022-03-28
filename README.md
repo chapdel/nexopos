@@ -1,9 +1,9 @@
 [![Latest Stable Version](https://poser.pugx.org/blair2004/nexopos/v)](//packagist.org/packages/blair2004/nexopos) [![Total Downloads](https://poser.pugx.org/blair2004/nexopos/downloads)](//packagist.org/packages/blair2004/nexopos) [![Latest Unstable Version](https://poser.pugx.org/blair2004/nexopos/v/unstable)](//packagist.org/packages/blair2004/nexopos) [![License](https://poser.pugx.org/blair2004/nexopos/license)](//packagist.org/packages/blair2004/nexopos)
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/blair2004/NexoPOS-4x/tree/v4.7.x&refcode=ebdb80cb0ec7)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/blair2004/Labsdel-4x/tree/v4.7.x&refcode=ebdb80cb0ec7)
 
-# About NexoPOS 4.x
-NexoPOS 4 is a free point of sale system build using Laravel, TailwindCSS, Vue and other open-source resources. This POS System focuses on utilities and functionalities to offer for most businesses all the tools they need to manage better their store. NexoPOS 4.x include a responsive and beautiful dashboard that ease the interaction either on a smartphone, tables or desktops.
+# About Labsdel 1.x
+Labsdel 1 is a free point of sale system build using Laravel, TailwindCSS, Vue and other open-source resources. This POS System focuses on utilities and functionalities to offer for most businesses all the tools they need to manage better their store. Labsdel 1.x include a responsive and beautiful dashboard that ease the interaction either on a smartphone, tables or desktops.
 
 ## Demo
 - Regular : https://v4.nexopos.com
@@ -13,17 +13,17 @@ NexoPOS 4 is a free point of sale system build using Laravel, TailwindCSS, Vue a
 - Password : 123456
 
 ## Documentation
-All the documentation for NexoPOS 4.x can be found on [My NexoPOS](https://my.nexopos.com/en/documentation). That includes : 
+All the documentation for Labsdel 1.x can be found on [My Labsdel](https://my.nexopos.com/en/documentation). That includes : 
 
 - [Configuring the environment](https://my.nexopos.com/en/documentation/getting-started/configuring-the-environment)
-- [Downloading NexoPOS](https://my.nexopos.com/en/documentation/getting-started/download-and-install)
-- [Installing NexoPOS](https://my.nexopos.com/en/documentation/getting-started/installation-wizard)
+- [Downloading Labsdel](https://my.nexopos.com/en/documentation/getting-started/download-and-install)
+- [Installing Labsdel](https://my.nexopos.com/en/documentation/getting-started/installation-wizard)
 
 # How To Unlock Premium Features
-The premium version of NexoPOS 4.x is available on [CodeCanyon](https://codecanyon.net/item/nexopos-4x-pos-crm-inventory-manager/31188619). While purchasing on CodeCanyon, you also get : 
+The premium version of Labsdel 1.x is available on [CodeCanyon](https://codecanyon.net/item/nexopos-4x-pos-crm-inventory-manager/31188619). While purchasing on CodeCanyon, you also get : 
 
-- $40 In credit to [My NexoPOS](https://my.nexopos.com/en/marketplace) balance.
-- Access to NexoPOS 4.x marketplace
+- $40 In credit to [My Labsdel](https://my.nexopos.com/en/marketplace) balance.
+- Access to Labsdel 1.x marketplace
 - Premium Support & Installation Service
 - You're eligible for customization
 
@@ -34,20 +34,20 @@ Therefore, __No refunds are allowed__ if the customer discovered later on the li
 ](https://youtu.be/-eXapKZrcBc)
 
 ## Changelog & Feature Announcement
-We're frequently discussing about the future of the app (while waiting discussion are allowed). You can join the WhatsApp [group where tips](https://chat.whatsapp.com/KHWgNmfcfJy7SwJiRQTmG8) are shared on NexoPOS 4.x.
+We're frequently discussing about the future of the app (while waiting discussion are allowed). You can join the WhatsApp [group where tips](https://chat.whatsapp.com/KHWgNmfcfJy7SwJiRQTmG8) are shared on Labsdel 1.x.
 
 
 ## Support Terms
 
-1 - The support on NexoPOS 4.x only applies to the information provided by the users while creating an issue. This means we won't either do the installation on your server or check an issue on your server. You're therefore invited not to post your server information while creating an issue. We'll use your explanations to reproduce your issue and therefore to solve it.
+1 - The support on Labsdel 1.x only applies to the information provided by the users while creating an issue. This means we won't either do the installation on your server or check an issue on your server. You're therefore invited not to post your server information while creating an issue. We'll use your explanations to reproduce your issue and therefore to solve it.
 
-2 - If you would like to have a dedicated support. Consider registering as a member to [My NexoPOS platform](https://my.nexopos.com/en/account/checkout/premium).
+2 - If you would like to have a dedicated support. Consider registering as a member to [My Labsdel platform](https://my.nexopos.com/en/account/checkout/premium).
 
 ## Troubleshooting
 Here we list the knowns issues and the way around. Not everyone is likely to face these issues as it depends on the used enviroment.
 
 - CSRF error After Installation
-Chances are when you make your installation, you'll have your website URL changed. Unfortunately, if the domain has to change, it must be clearly described on the .env file. We've written a guide that explains how to solve the [CSRF issue on NexoPOS 4.x](https://my.nexopos.com/en/documentation/troubleshooting/how-to-fix-csrf-token-mismatch-on-nexopos-4-x).
+Chances are when you make your installation, you'll have your website URL changed. Unfortunately, if the domain has to change, it must be clearly described on the .env file. We've written a guide that explains how to solve the [CSRF issue on Labsdel 1.x](https://my.nexopos.com/en/documentation/troubleshooting/how-to-fix-csrf-token-mismatch-on-nexopos-4-x).
 
 - Error After Database Details (using `php artisan serve`)
 If you're serving the project using `php artisan serve`, after setting up the database credentails and having them validated, you migth stop on an infinite
@@ -61,7 +61,7 @@ This is caused because during the database setup, the ".env" is updated which ca
 Do you plan to contribute? That's awesome. We don't have that much developer on it, so we're open to any type of contributions. If you're a developper, you'll start by forking the project and deploying that locally for further tests. If you just have some ideas, consider posting that as an issue. We'll review the ideas and decide to implement it.
 
 ## Screenshots
-The branch 4.7.x introduce the "Dark Mode" which will make working continuously with NexoPOS easier without hurting sight.
+The branch 4.7.x introduce the "Dark Mode" which will make working continuously with Labsdel easier without hurting sight.
 
 ### Media Component
 The media components help uploading images and managing them. This comes with a field that will ease assigning image to products.
@@ -80,5 +80,5 @@ The resources that are sold are the products. The product UI has been simplified
 ![image](https://user-images.githubusercontent.com/5265663/159092753-845b930c-0b4f-4b3d-a42e-8658f74e7499.png)
 
 ### Settings Components
-Configure how NexoPOS works. From the settings you can configure various section of your application including the currency, the POS features, the orders and much more.
+Configure how Labsdel works. From the settings you can configure various section of your application including the currency, the POS features, the orders and much more.
 ![image](https://user-images.githubusercontent.com/5265663/159092979-267841bc-531d-4a27-b35f-902866fa742a.png)

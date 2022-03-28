@@ -1,5 +1,5 @@
 ## Form Validation
-The Form validation helps to make sure a form is valid before submition. On NexoPOS 4.x a reactive approach is used to build a form. That ensures dynamic form creation (from remote server). The component `ns-input`, `ns-select`, `ns-radio`, `ns-datetime`, `ns-date`, `ns-textarea` are all compatible with the validation. Refer to each components to understand how the integration is made.
+The Form validation helps to make sure a form is valid before submition. On Labsdel 1.x a reactive approach is used to build a form. That ensures dynamic form creation (from remote server). The component `ns-input`, `ns-select`, `ns-radio`, `ns-datetime`, `ns-date`, `ns-textarea` are all compatible with the validation. Refer to each components to understand how the integration is made.
 
 The Form Validation class is available on "resources/js/libraries/form-validation.js". This class expose some methods the helps interactif with a Form Array. A Form Array consist of list of fields. 
 

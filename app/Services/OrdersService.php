@@ -110,7 +110,7 @@ class OrdersService
     }
 
     /**
-     * Create an order on NexoPOS.
+     * Create an order on Labsdel.
      * @param array $fields
      * @param Order|null $order (optional)
      * @return array

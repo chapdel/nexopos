@@ -2,7 +2,7 @@
 This section describe how the users, roles, permissions and guards works.
 
 ## About Users
-The authentication on NexoPOS uses closely the default [Laravel authentication](https://laravel.com/docs/7.x/authentication). 
+The authentication on Labsdel uses closely the default [Laravel authentication](https://laravel.com/docs/7.x/authentication). 
 However, it provides new attributes such as :
 
 - active : boolean that determine wether a user is active or not.
@@ -74,8 +74,8 @@ $role->removePermissions([ 'fly', 'run' ]);
 
 ## How to secure pages and sections
 
-Guards are security measure added to NexoPOS to restrict some action to the right users (or roles). 
-By default, NexoPOS is built with various roles that has various permissions. It's also possible to create customs roles and permissions. 
+Guards are security measure added to Labsdel to restrict some action to the right users (or roles). 
+By default, Labsdel is built with various roles that has various permissions. It's also possible to create customs roles and permissions. 
 
 Once you have your roles, permissions created and your permissions and roles linked, it's time to protect your pages. 
 This can be made on any of your controller methods or on middleware. We'll here just need to use the helper `ns()`.

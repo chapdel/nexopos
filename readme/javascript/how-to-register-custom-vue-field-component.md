@@ -1,9 +1,9 @@
-Most of the components available on NexoPOS 4.x are Vue.js components. If for some reason, you would like to inject a custom fields, you need to understand how fields are created.
+Most of the components available on Labsdel 1.x are Vue.js components. If for some reason, you would like to inject a custom fields, you need to understand how fields are created.
 First of all, default fields are automatically loaded within every main Vue instances, however you can't register your component the same way as that will involve editing the source code.
 The work around to do this is first to edit the signature of the fields from the backend and from the frontend to create a Vue component that will automatically be rendered.
 
 ## Modifiy Backend Signature
-By modifying the signature we mean being able to change the fields provided by default. For more forms, NexoPOS 4.x perform an asynchronous request to the server to get
+By modifying the signature we mean being able to change the fields provided by default. For more forms, Labsdel 1.x perform an asynchronous request to the server to get
 fields signature and thefore load the form accordingly. Any custom field should be referenced there as well. While defining your custom field you can use the following types : 
 
 - text
@@ -34,7 +34,7 @@ use App\Services\Hook;
 
 While for most of the listed type there is an accurate use-case and render similarily throughout the application, for `custom` it's important to explain how it work.
 
-Not every field might use NexoPOS 4.x default styling and features. This type let you dynamically load a vue component within NexoPOS 4.x Vue instances. 
+Not every field might use Labsdel 1.x default styling and features. This type let you dynamically load a vue component within Labsdel 1.x Vue instances. 
 This is possible thanks to the javascript object named : `nsExtraComponents`. 
 
 This is the object where you must define your custom field component. Let's create a custom click counter component : 
@@ -51,7 +51,7 @@ nsExtraComponents.myCustomField   = Vue.component( 'myCustomField', {
 ```
 
 You should note that the property we set to `nsExtraComponents` is named exactly as the value we've set on the fields signature : "myCustomField". It's important to keep it
-that was as NexoPOS 4.x will fetch from `nsExtraComponents` to see if any component has been registered in order to render the field. If it's not correcly defined, nothing will render.
+that was as Labsdel 1.x will fetch from `nsExtraComponents` to see if any component has been registered in order to render the field. If it's not correcly defined, nothing will render.
 
 ## About Parameters and Event
 

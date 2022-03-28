@@ -1,7 +1,7 @@
 # Getting Started
 
 The notifications are helpful to display relevant messages to a user or group of user on a specific matter. It shouldn't be used for a discussion messages but can be used
-to share a status on a process, an information about the store details or a user account. NexoPOS 4.x has not a NotificationsService that ease creating notifications
+to share a status on a process, an information about the store details or a user account. Labsdel 1.x has not a NotificationsService that ease creating notifications
 for users or group of users.
 
 ## Different Between Notifications To User and Group of User

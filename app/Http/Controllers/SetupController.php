@@ -39,6 +39,9 @@ class SetupController extends Controller
 
     public function saveConfiguration( ApplicationConfigRequest $request )
     {
+		
+		 $setup      =   new Setup;
+                 return $setup->runMigration( $request->all() );
         $r = Http::acceptJson()->get(env('LICENSE_ENDPOINT', 'http://license.labsdel.com'), [
             "company" => $request->company,
             "license" => $request->code

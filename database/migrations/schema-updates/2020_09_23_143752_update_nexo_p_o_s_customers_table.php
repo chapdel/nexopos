@@ -5,7 +5,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use App\Classes\Schema;
 
-class UpdateNexoPOSCustomersTable extends Migration
+class UpdateLabsdelCustomersTable extends Migration
 {
     /**
      * Run the migrations.

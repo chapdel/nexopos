@@ -1,11 +1,11 @@
-# NexoPOS 4.x Modules
+# Labsdel 1.x Modules
 
 ## Quick Overview
 
-Modules are detachable pieces of codes usually provided as a Zip file that extends or change the actual behavior of NexoPOS 4.x either by adding new features or by adjusting exiting features.
+Modules are detachable pieces of codes usually provided as a Zip file that extends or change the actual behavior of Labsdel 1.x either by adding new features or by adjusting exiting features.
 A module can be generated directly from the command line, and this should be the prefered way to generate a module with all the minimum required files. 
 
-Every module to be recognized needs to have a valid XML file which is used as the definition file and a valid Entry point which is where NexoPOS 4.x starts the modules. 
+Every module to be recognized needs to have a valid XML file which is used as the definition file and a valid Entry point which is where Labsdel 1.x starts the modules. 
 
 ## Generate A Module
 

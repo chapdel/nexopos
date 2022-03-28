@@ -1,7 +1,7 @@
 <?php
 
 /**
- * NexoPOS Controller
+ * Labsdel Controller
  * @since  1.0
 **/
 
@@ -185,7 +185,7 @@ class OrdersController extends DashboardController
         );
 
         return $this->view( 'pages.dashboard.orders.pos', [
-            'title'             =>  __( 'POS &mdash; NexoPOS' ),
+            'title'             =>  __( 'POS &mdash; Labsdel' ),
             'orderTypes'        =>  collect( config( 'nexopos.orders.types' ) )->filter( function( $type, $label ) {
                 return in_array( $label, ns()->option->get( 'ns_pos_order_types' ) ?: [] );
             }),

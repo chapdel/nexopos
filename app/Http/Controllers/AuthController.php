@@ -1,7 +1,7 @@
 <?php
 
 /**
- * NexoPOS Controller
+ * Labsdel Controller
  * @since  1.0
 **/
 
@@ -38,14 +38,14 @@ class AuthController extends Controller
     public function signIn()
     {
         return view( Hook::filter( 'ns-views:pages.sign-in', 'pages.sign-in' ), [
-            'title'     =>  __( 'Sign In &mdash; NexoPOS' )
+            'title'     =>  __( 'Sign In &mdash; Labsdel' )
         ]);
     }
 
     public function signUp()
     {
         return view( Hook::filter( 'ns-views:pages.sign-up', 'pages.sign-up' ), [
-            'title'     =>      __( 'Sign Up &mdash; NexoPOS' )
+            'title'     =>      __( 'Sign Up &mdash; Labsdel' )
         ]);
     }
 

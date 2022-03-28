@@ -93,7 +93,7 @@ class CreateRoles extends Migration
         $storeAdmin->name           =   __( 'Store Administrator' );
         $storeAdmin->namespace      =   'nexopos.store.administrator';
         $storeAdmin->locked         =   true;
-        $storeAdmin->description    =   __( 'Has a control over an entire store of NexoPOS.' );
+        $storeAdmin->description    =   __( 'Has a control over an entire store of Labsdel.' );
         $storeAdmin->save();
         $storeAdmin->addPermissions([ 'read.dashboard' ]);
         $storeAdmin->addPermissions( Permission::includes( '.expenses' )->get()->map( fn( $permission ) => $permission->namespace ) );

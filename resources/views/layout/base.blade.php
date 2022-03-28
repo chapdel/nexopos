@@ -30,7 +30,7 @@ $theme  =   Auth::user()->attribute->theme ?? ns()->option->get( 'ns_default_the
         window.nsExtraComponents     =   new Object;
 
         /**
-         * describe a global NexoPOS object
+         * describe a global Labsdel object
          * @param {object} ns
          */
         window.ns =   { nsExtraComponents };
@@ -52,7 +52,7 @@ $theme  =   Auth::user()->attribute->theme ?? ns()->option->get( 'ns_default_the
          */
         window.ns.language     =   '{{ app()->getLocale() }}';
         window.ns.langFiles     =   <?php echo json_encode( Hook::filter( 'ns.langFiles', [
-            'NexoPOS'   =>  asset( "/lang/" . app()->getLocale() . ".json" ),
+            'Labsdel'   =>  asset( "/lang/" . app()->getLocale() . ".json" ),
         ]));?>
     </script>
     <script src="{{ asset( ns()->isProduction() ? 'js/lang-loader.min.js' : 'js/lang-loader.js' ) }}"></script>
